@@ -1,0 +1,10 @@
+<p>company-vacancies works!</p>
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    <a routerLink="/vacancies/{{vacancy.id}}">
+      <h1>{{vacancy.name}}</h1>
+      <p>{{vacancy.salary}}</p>
+      <p>{{vacancy.company.address}}  {{vacancy.company.city}}</p>
+    </a>
+  </li>
+</ul>

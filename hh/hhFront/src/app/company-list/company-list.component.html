@@ -1,0 +1,10 @@
+<p>company-list works!</p>
+<ul>
+  <li *ngFor="let company of companies">
+    <a routerLink="{{company.id}}">
+      <h1>{{company.id}}</h1>
+      <p>{{company.city}}</p>
+      <p>{{company.address}}</p>
+    </a>
+  </li>
+</ul>
