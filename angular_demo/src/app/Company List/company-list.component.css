@@ -1,0 +1,25 @@
+.companies_wrapper{
+  padding: 20px;
+}
+
+.companies_wrapper h1{
+  margin: 0px;
+}
+
+.companies{
+  padding: 10px;
+}
+
+.company_item{
+  margin: 10px 0px;
+}
+
+.company_item a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.company_item a:hover{
+  border-bottom: 1px solid black;
+}

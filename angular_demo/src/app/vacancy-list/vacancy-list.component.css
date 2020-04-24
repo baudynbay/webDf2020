@@ -1,0 +1,18 @@
+.vacancies_wrapper{
+  padding: 20px;
+}
+
+h1{
+  margin: 0px;
+}
+
+.vacancy_item a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 10px;
+}
+
+.vacancy_item a:hover{
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,10 @@
+
+<div class="companies_wrapper">
+  <h1>Companies</h1>
+  <div class="companies">
+    <div *ngFor="let company of companies" class="company_item">
+      <a [routerLink]="'/company/' + company.id">{{ company.name }}</a>
+      <button (click)="deleteCategory(company.id)">Delete</button>
+    </div>
+  </div>
+</div>

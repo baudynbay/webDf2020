@@ -1,0 +1,16 @@
+.company_wrapper{
+  padding: 20px;
+}
+a{
+  display: inline-block;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+a:hover{
+  background: black;
+  color: white;
+}
